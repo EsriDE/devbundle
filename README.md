@@ -7,6 +7,20 @@ It provides you with advanced, innovative tools for development of customized so
 
 As digital transformation accelerates, technology cycles are becoming increasingly shorter. We understand that you, as a developer, need straightforward access to ArcGIS Enterprise for development and testing within secure sandbox environments.
 
+## The developers guide to the ArcGIS Developer Bundle
+List all the included software products.
+
+```python
+from devbundle.content import DevBundle
+
+bundle = DevBundle()
+bundle.software_names
+```
+```
+['ArcGIS Enterprise', 'ArcGIS Notebook Server', 'ArcGIS Knowledge', 'ArcGIS GeoEvent Server', 'ArcGIS GeoAnalytics Server', 'ArcGIS Image Server']
+```
+
+
 ## [ArcGIS Enterprise](https://enterprise.arcgis.com/en/)
 Deliver industry-leading mapping and analytics to your infrastructure and the cloud.
 
