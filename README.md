@@ -1,2 +1,2 @@
-# devbundle
-ArcGIS Developer Bundle ist die perfekte Kombination  aus Innovation und Digitaler Souveränität.
+# Introduction
+We deliver the bundle. You shape the digital era.
