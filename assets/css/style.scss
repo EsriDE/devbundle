@@ -1,8 +1,11 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
-// Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #000000 !default;
-$header-bg-color-secondary: #1F3F67 !default;
+
+// Override Headers
+.page-header {
+    background-color: #000000;
+    background-image: linear-gradient(120deg, #000000, #1F3F67);
+  }
