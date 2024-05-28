@@ -8,4 +8,9 @@
 .page-header {
     background-color: #000000;
     background-image: linear-gradient(120deg, #000000, #1F3F67);
-  }
+}
+
+// Override Main-Content
+.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6 {
+    color: #000000;
+}
