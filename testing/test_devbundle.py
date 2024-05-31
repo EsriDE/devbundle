@@ -11,9 +11,13 @@ class BundleTestCase(TestCase):
         self._bundle = DevBundle()
 
     def test_included_software(self):
+        # Validate using the number of software
+        software = self._bundle.software
+        self.assertLess(5, len(software), 'The bundle must contain more than 5 products!')
+
         # Validate using the instance type
         has_type = False
-        for software in self._bundle.software:
+        for software in software:
             if isinstance(software, ArcGISEnterprise):
                 has_type = True
                 break
