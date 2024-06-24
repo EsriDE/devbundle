@@ -1,0 +1,8 @@
+# Generated documentation for module arcpy.oi
+
+from .AddImagesFromCustomInputType import AddImagesFromCustomInputType
+from .AddImagesToOrientedImageryDataset import AddImagesToOrientedImageryDataset
+from .BuildOrientedImageryFootprint import BuildOrientedImageryFootprint
+from .CreateOrientedImageryDataset import CreateOrientedImageryDataset
+from .GenerateServiceFromOrientedImageryDataset import GenerateServiceFromOrientedImageryDataset
+from .UpdateOrientedImageryDatasetProperties import UpdateOrientedImageryDatasetProperties

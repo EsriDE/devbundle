@@ -1,0 +1,10 @@
+# Generated documentation for module arcpy.indoorpositioning
+
+from .ComputePositioningQuality import ComputePositioningQuality
+from .CreateIPSDataModel import CreateIPSDataModel
+from .CreateIPSQualityDataset import CreateIPSQualityDataset
+from .EnableIndoorPositioning import EnableIndoorPositioning
+from .GenerateIndoorPositioningDataset import GenerateIndoorPositioningDataset
+from .GenerateIndoorPositioningFile import GenerateIndoorPositioningFile
+from .GenerateIndoorPositioningFileWithoutSurvey import GenerateIndoorPositioningFileWithoutSurvey
+from .ShareIndoorPositioningDataService import ShareIndoorPositioningDataService

@@ -1,0 +1,21 @@
+# Generated documentation for module arcpy.td
+
+from .AddLevelVariables import AddLevelVariables
+from .AddTerritoryBarriers import AddTerritoryBarriers
+from .AddTerritoryLevel import AddTerritoryLevel
+from .AddTerritorySeedPoints import AddTerritorySeedPoints
+from .CopyTerritorySolution import CopyTerritorySolution
+from .CreateTerritoryLevelFeatureClasses import CreateTerritoryLevelFeatureClasses
+from .CreateTerritorySolution import CreateTerritorySolution
+from .ExportTerritorySolution import ExportTerritorySolution
+from .GenerateTerritoryReport import GenerateTerritoryReport
+from .ImportTerritorySolution import ImportTerritorySolution
+from .LoadTerritoryRecords import LoadTerritoryRecords
+from .MakeTerritorySolutionLayer import MakeTerritorySolutionLayer
+from .RebuildTerritorySolution import RebuildTerritorySolution
+from .SetBalanceVariables import SetBalanceVariables
+from .SetTerritoryAttributeConstraints import SetTerritoryAttributeConstraints
+from .SetTerritoryDistanceParameters import SetTerritoryDistanceParameters
+from .SetTerritoryLevelOptions import SetTerritoryLevelOptions
+from .SolveTerritories import SolveTerritories
+from .ValidateTerritories import ValidateTerritories
