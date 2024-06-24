@@ -1,5 +1,6 @@
 from devbundle.content import DevBundle
 from devbundle.software import ArcGISEnterprise
+from devbundle.arcpy.analysis import Buffer
 
 import unittest
 from unittest import TestCase
@@ -26,6 +27,13 @@ class BundleTestCase(TestCase):
         
         # Validate using the product name
         self.assertTrue('ArcGIS Enterprise' in self._bundle.software_names, 'ArcGIS Enterprise must be part of the ArcGIS Developer Bundle!')
+
+    def test_included_modules(self):
+        # Access the arcpy.analysis module
+        buffer_tool = Buffer()
+        tool_description = buffer_tool.description
+        self.assertIsNotNone(tool_description, 'The tool must have a description!')
+
 
 
 if __name__ == '__main__':
